@@ -1,0 +1,15 @@
+{{#foreach posts}}
+<article class="main_a {{post_class}}">
+	<header class="a_header">
+		<h2 class="a_title"><a href="{{url}}">{{{title}}}</a></h2>
+		{{author}}
+		{{tags prefix=" on "}} 
+		<time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> 
+	</header>
+	<section class="a_con">
+		<p>{{content}}</p>
+	</section>
+</article>
+{{/foreach}}
+
+{{pagination}}

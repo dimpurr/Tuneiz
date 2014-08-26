@@ -1,0 +1,23 @@
+{{!< default}}
+
+<header class="main_hctn {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+
+	{{> "nav"}}
+
+	<div class="main_title_ctn">
+	<div class="ctn main_title">
+		{{#if @blog.logo}}
+		<a class="page_logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo"></a>
+		{{/if}}
+		<h1 class="page_title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+		<h2 class="page_description">{{@blog.description}}</h2>
+	</div>
+	</div>
+
+</header>
+
+<main id="content" class="ctn content" role="main">
+
+	{{> "loop"}}
+
+</main>

@@ -1,0 +1,220 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, q {
+	color: #343536;
+	font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", STSong, "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", serif;
+
+}
+
+p, blockquote, q {
+	line-height: 1.6;
+}
+
+blockquote, q {
+	display: block;
+	margin-left: 4em;
+}
+
+code, pre {
+	word-break: break-word;
+	line-height: 1.2em;
+	font-size: 1em;
+}
+
+a {
+	color: #121314;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
+a:hover {
+	border-bottom: 2px solid rgba(100,100,100,0.3);
+}
+
+.ctn {
+	margin: 0 auto;
+	max-width: 750px;
+}
+
+.main_hctn {
+	position: relative;
+	height: 700px;
+	height: 100vh;
+	color: #FEFEFE;
+	background-size: cover;
+}
+
+.main_nav_ctn {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	transition: all linear 0.4s;
+}
+
+.main_nav_ctn_s, .post .main_nav_ctn {
+	background: #FFF;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.main_nav_ctn a {
+	color: rgba(255,255,255,0.8);
+	border-color: rgba(255,255,255,0.1);
+}
+
+.main_nav_ctn_s a, .post .main_nav_ctn a {
+	color: #232425;
+}
+
+.main_nav_ctn .right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.main_nav_ctn .left, .main_nav_ctn .right {
+	margin: 0;
+	padding: 0px 48px;
+}
+
+.main_nav_ctn .left li, .main_nav_ctn .right li {
+	display: inline-block;
+	margin: 0;
+	padding: 12px 12px;
+	list-style: none;
+	font-size: 1.6em;
+	color: rgba(255,255,255,0.6);
+}
+
+.main_title_ctn {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 144px;
+	margin-top: -72px;
+}
+
+.author .main_title_ctn {
+	height: auto;
+	padding: 40px 0;
+	background: rgba(12,13,14,0.4);
+	top: 20%;
+}
+
+.page_logo img {
+	float: left;
+	margin-left: -72px;
+	margin-right: 36px;
+	width: 128px;
+	background: rgba(255,255,255,0.15);
+	border-radius: 100%;
+	box-shadow: 0 0 0 8px rgba(255,255,255,0.3);
+}
+
+.main_title h1 {
+	margin: 0;
+	padding-top: 14px;
+	font-size: 5em;
+	font-weight: bold;
+}
+
+.main_title h1 a {
+	color: rgba(255,255,255,0.8);
+}
+
+.main_title h1 a:hover {
+	color: rgba(255,255,255,0.9);
+}
+
+.main_title h2 {
+	margin: 0;
+	margin-left: 92px;
+	padding-top: 4px;
+	color: rgba(255,255,255,0.7);
+	font-size: 2em;
+	font-weight: normal;
+}
+
+.main_bar {
+	position: absolute;
+	bottom: 0;
+	padding: 8px 0;
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	background: rgba(255,255,255,0.15);
+	color: rgba(255,255,255,0.8);
+}
+
+.main_a {
+	margin: 80px 0 20px 0;
+}
+
+.a_header {
+	font-size: 1.4em;
+	margin-bottom: 40px;
+}
+
+.a_header h2 {
+	margin-bottom: 8px;
+	font-size: 3em;
+}
+
+.a_header h2 a {
+	color: #343536;
+}
+
+.a_header time::before {
+	content: " · ";
+	color: #777;
+}
+
+.a_header section {
+	display: inline-block;
+}
+
+.a_header section a {
+	margin-right: 4px;
+}
+
+.a_header section::before {
+	content: " · ";
+	color: #777;
+}
+
+.a_con {
+	font-size: 1.8em;
+	line-height: 2.2;
+}
+
+.a_con p {
+	line-height: 1.8;
+	margin: 1.8em 0;
+}
+
+.pagination {
+	margin: 80px 0;
+	font-size: 3em;
+	text-align: center;
+}
+
+.pagination .newer-posts {
+	float: left;
+}
+
+.pagination .older-posts {
+	float: right;
+}
+
+.main_footer section {
+	color: #777;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.main_footer section:nth-child(2) {
+	float: right;
+}

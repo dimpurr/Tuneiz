@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>{{meta_title}}</title>
+	<meta name="description" content="{{meta_description}}" />
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+	<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+
+	{{ghost_head}}
+</head>
+<body class="{{body_class}}">
+
+	{{{body}}}
+
+	<footer class="ctn main_footer">
+		 <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+		 <section class="themes">Theme <a href="http://blog.dimpurr.com/Tuneiz">Tuneiz</a> by <a href="https://ghost.org">Dimpurr</a></section>
+	</footer>
+
+    <script type="text/javascript" src="{{asset "js/script.js"}}"></script>
+	{{ghost_foot}}
+
+</body>
+</html>
