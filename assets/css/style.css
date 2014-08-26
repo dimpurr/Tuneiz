@@ -218,3 +218,34 @@ a:hover {
 .main_footer section:nth-child(2) {
 	float: right;
 }
+
+@media (max-width: 600px) {
+
+.ctn {
+	margin: 0 30px;
+}
+
+.main_nav_ctn .left, .main_nav_ctn .right {
+	padding: 0 20px;
+}
+
+.main_title_ctn {
+	text-align: center;
+}
+
+.page_logo img {
+	float: none;
+	position: static;
+	margin: -50px 0 30px 0;
+}
+
+.main_title h2 {
+	margin: 0;
+}
+
+.pagination .newer-posts, .pagination .older-posts {
+	float: none;
+	display: block;
+}
+
+}
