@@ -1,6 +1,9 @@
 # Tuneiz
 
-这是一个纯文字简洁向的 Ghost 主题。
+这是一个纯文字简洁向的 Ghost 主题。作为原生主题的阅读用替代。
+
+![首页](http://img1.dimpurr.com/dimblog/2014/08/2014-08-26-下午7.28.20.png)
+![内文](http://img1.dimpurr.com/dimblog/2014/08/2014-08-26-下午7.33.19.png)
 
 ## 使用须知
 
