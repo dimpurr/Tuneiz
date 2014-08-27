@@ -15,14 +15,16 @@ function scroll_top(){
 }
 
 function scroll_nav() {
-	var nav = document.getElementById("nav");
-	var vh = window.screen.height * 0.5;
-	if (scroll_top() > vh) {
+	if (scroll_top() > vhh) {
 		nav.className = "main_nav_ctn main_nav_ctn_s";
 	} else {
 		nav.className = "main_nav_ctn";
 	}
 }
+
+var nav = document.getElementById("nav");
+var vh = window.screen.height;
+var vhh = vh * 0.5;
 
 window.onscroll = scroll_nav;
 

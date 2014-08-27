@@ -104,6 +104,11 @@ a:hover {
 	top: 20%;
 }
 
+.page_logo {
+	position: relative;
+	overflow: hidden;
+}
+
 .page_logo img {
 	float: left;
 	margin-left: -72px;
@@ -112,6 +117,29 @@ a:hover {
 	background: rgba(255,255,255,0.15);
 	border-radius: 100%;
 	box-shadow: 0 0 0 8px rgba(255,255,255,0.3);
+}
+
+.page_logo::before {
+	display: block;
+	content: "⬇︎";
+	font-size: 6em;
+	color: rgba(12,13,14,0.8);
+	text-align: center;
+	line-height: 128px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 128px;
+	height: 128px;
+	background: rgba(255,255,255,0.8);
+	border-radius: 100%;
+	opacity: 0;
+	margin-left: -72px;
+	transition: all linear 0.2s;
+}
+
+.page_logo:hover::before {
+	opacity: 1;
 }
 
 .main_title h1 {
@@ -150,7 +178,8 @@ a:hover {
 }
 
 .main_a {
-	margin: 80px 0 20px 0;
+	margin: 0 0 20px 0;
+	padding-top: 80px;
 }
 
 .a_header {
