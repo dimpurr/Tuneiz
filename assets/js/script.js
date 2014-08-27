@@ -35,7 +35,7 @@ nav.onclick = function scrollTop() {
 function sendTj() {
 	var xmlhttp;
 	if (window.XMLHttpRequest) { xmlhttp=new XMLHttpRequest(); } else { xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); };
-	xmlhttp.open("GET","http://work.dimpurr.com/theme/theme_tj.php?theme_name=Tuneiz&blog_url=Test&t=" + Math.random(),true);
+	xmlhttp.open("GET","http://work.dimpurr.com/theme/theme_tj.php?theme_name=Tuneiz&blog_url=" + window.location.host + "&t=" + Math.random(),true);
 	xmlhttp.send();
 }
 
