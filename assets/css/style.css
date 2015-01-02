@@ -35,6 +35,13 @@ a:hover {
 	border-bottom: 2px solid rgba(100,100,100,0.3);
 }
 
+hr {
+	border: none;
+	height: 1px;
+	background: #777;
+	box-shadow: 0 0 20px #DDD;
+}
+
 .ctn {
 	margin: 0 auto;
 	max-width: 750px;
